@@ -1,0 +1,47 @@
+#player {
+    width: 800px;
+    height: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.video-container{
+    flex: 1;
+    flex-grow: 1;
+
+}
+
+.bottom-controls {
+    background-color: black;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.bottom-controls button {
+    border: none;
+    margin: 0;
+    background-color: transparent;
+    color: white;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.bottom-controls button i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14pt;
+}
+
+.left-buttons {
+    display: flex;
+}
+
+.right-buttons {
+    display: flex;
+}
